@@ -1,0 +1,139 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+
+}
+
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('cbackground.png');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.wrapper {
+ border-style: solid;
+ border-color: transparent;
+ background-color: transparent;
+ background: rgba(99, 7, 99, 0.13);
+ width: 300px;
+ padding: 20px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ backdrop-filter: blur(5px); 
+
+
+ 
+
+
+}
+
+.wrapper h1 {
+ text-align: center;
+ font-family: arial black;
+ color: rgb(233, 2, 144);
+ margin-bottom: 10px;
+}
+
+ .login-btn {
+
+ display: flex;
+ justify-content: center;
+ width: 100%;
+
+ 
+
+
+}
+
+
+.login-btn .btn {
+  display: flex;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  width: 200px;
+  height: 40px;
+  background-color: rgba(233, 2, 144);
+  box-shadow: 0 4px #810061e1;
+  cursor: pointer;
+
+
+}
+
+.login-btn:hover {
+  background-color: rgb(255, 87, 190);
+  display: flex;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  width: 200px;
+  height: 40px;
+
+
+}
+
+
+
+.log-user, .log-pass {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ margin-bottom: 5px;
+
+}
+
+.log-user input, .log-pass input {
+    display: block;
+    width: 200px;
+    font-style: italic;
+    border-radius: 20px;
+    padding: 5px 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    background-color: rgba(255, 254, 254, 0.082);
+    cursor: pointer;
+  
+
+}
+ .log-user:hover,.log-pass:hover {
+    display: flex;
+    width: 100%;
+    border-radius: 100px;
+    padding: 5px 5px;
+    text-align: center;
+    margin-bottom: 5px;
+    background-color: rgba(255, 254, 254, 0.301);
+
+ }
+
+
+
+
+.forgot-pass {
+  text-align: center;
+  color: white
+
+
+
+}
+
+.create-account{
+color:white;
+
+}
+
